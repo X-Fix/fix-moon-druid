@@ -9,6 +9,6 @@
   ],
   "version": "0.0.1",
   "scripts": [
-    "src/index.js"
+    "src/main.js"
   ]
 }
