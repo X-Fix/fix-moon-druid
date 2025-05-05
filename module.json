@@ -1,0 +1,31 @@
+{
+  "id": "fix-moon-druid",
+  "title": "Fix Moon Druid - A Supplementary Module For Moon Druid Mechanics",
+  "description": "A module intended to add Moon Druid features not supported by the base dnd5e system",
+  "authors": [
+    {
+      "name": "ExF1x"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.9",
+          "verified": "4.3.9"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "src/index.js"
+  ]
+}
