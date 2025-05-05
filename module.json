@@ -8,23 +8,6 @@
     }
   ],
   "version": "0.0.1",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "4.3.9",
-          "verified": "4.3.9"
-        }
-      }
-    ]
-  },
   "scripts": [
     "src/index.js"
   ]
