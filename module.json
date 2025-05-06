@@ -10,5 +10,6 @@
   "version": "0.0.1",
   "scripts": [
     "src/main.js"
-  ]
+  ],
+  "download": "https://codeload.github.com/X-Fix/fix-moon-druid/zip/main"
 }
