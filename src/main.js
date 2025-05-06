@@ -1,7 +1,11 @@
-// function init() {
-//   CONFIG.debug.hooks = true;
-//   console.log('module loaded!')
-// }
+function print(...args) {
+    console.log('[FMD] ', ...args);
+}
 
-// Hooks.once("init", init);
-console.log('Hello there! Module loaded!')
+function init() {
+    CONFIG.debug.hooks = true;
+    print('Debug hooks set to:', true)
+}
+
+Hooks.once("init", init);
+print('[FMD]', 'Hello there! Module loaded!')
